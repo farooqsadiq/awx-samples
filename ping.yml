@@ -3,5 +3,4 @@
   hosts: all
   tasks:
     - name: Ping
-      debug:
-        msg: "Pingged"
+      ping:
